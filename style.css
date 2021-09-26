@@ -1,0 +1,84 @@
+:root {
+  background-image: url("PicsArt_09-26-12.17.42.jpg");background-position: center,center;
+  /*background: radial-gradient(#050526 0%, #000000 90%) -20vw 10vh no-repeat black;*/
+  margin: 0;
+  padding: 0;
+  width: 100vw;
+  height: 100vh;
+  position: absolute;
+  perspective: 340px;
+  height: 100%;
+  overflow: hidden;
+}
+
+.centered {
+  position: absolute;
+  left: 50vw;
+  top: 50vh;
+  transform: translateX(-50%) translateY(-50%) rotateX(15deg);
+  text-align: center;
+}
+
+.cyberspace {
+  position: relative;
+  font-family: 'Cyberspace-Raceway-Back',sans-serif;
+  font-size: 4rem;
+  color: black;
+  -webkit-clip: background;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: #87d1e4;
+  -webkit-text-stroke-width: 0.1rem;
+  -webkit-text-stroke-color: #87d1e4;
+  filter: url(#extrude);
+}
+
+.stars {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 2px;
+  height: 2px;
+  box-shadow: 109px -38px #fafafa, -98px -17px #ebebeb, 968px -393px #e8e8e8, 601px 273px #dbdbdb, -197px 60px #d4d4d4, 219px -121px #e8e8e8, 984px 176px white, -1479px -430px #ededed, 1365px 73px #ededed, -157px 331px #c4c4c4, -332px -432px #d1d1d1, 1199px 31px #cfcfcf, -754px 11px #c9c9c9, 472px -201px whitesmoke, -658px -21px #d6d6d6, -36px 141px #dedede, 1125px -283px #f0f0f0, -846px -478px #e6e6e6, -4px -216px #e6e6e6, 289px 364px white, 533px 176px #cfcfcf, 175px 409px #f2f2f2, 1473px -195px #dedede, 878px 203px white, -414px -418px #cfcfcf, -1178px -403px #f0f0f0, -750px -476px #c9c9c9, -537px -81px #f2f2f2, 761px -77px whitesmoke, -221px 1px #dedede, -631px 136px #d6d6d6, -68px 305px #cccccc, -462px -87px #e8e8e8, -121px 223px #d1d1d1, -1475px 407px #dedede, 804px -246px #e3e3e3, -289px 331px white, 417px 146px #cccccc, -1440px -94px #cccccc, 1321px -27px #ededed, 370px 302px #ededed, -1325px -16px #c2c2c2, -678px -98px #fcfcfc, 294px 69px #c2c2c2, 471px -175px #d4d4d4, 188px -208px #f7f7f7, -1204px -124px #d1d1d1, -48px -290px #f2f2f2, 781px 214px #cfcfcf, -436px -260px whitesmoke, -480px 365px #d4d4d4, 932px 90px #f0f0f0, -1019px 397px #ededed, -271px -375px #ededed, 1382px 465px #c4c4c4, 1312px 386px #d1d1d1, -268px 439px #dbdbdb, 813px 458px #fcfcfc, -1068px -321px #cfcfcf, -1264px -276px #e0e0e0, 277px 385px #e8e8e8, -446px -471px #d1d1d1, -195px -181px #e3e3e3, -32px -8px white, -848px 11px #ededed, -1226px -121px #dedede, -1456px -222px #d6d6d6, -665px -335px #e3e3e3, -866px 155px #d1d1d1, -1494px -357px #cfcfcf, 1454px -473px #e6e6e6, 571px -443px #e3e3e3, 220px 444px #f7f7f7, -588px 115px #ebebeb, -1052px -246px #f2f2f2, -889px -111px #d1d1d1, 118px -350px #c7c7c7, -1122px 213px #c4c4c4, -434px 261px #d1d1d1, -1376px 303px #e8e8e8, -1058px 474px #f7f7f7, -1165px -390px #d9d9d9, 740px 398px #f0f0f0, -795px -34px #e0e0e0, -89px 258px #d1d1d1, -299px -26px #f7f7f7, 498px -325px #dedede, -1267px 40px #d1d1d1, -903px 349px #e6e6e6, -1040px -82px #e3e3e3, -23px 360px whitesmoke, 805px -351px whitesmoke, 1440px -389px #c2c2c2, -538px 198px #e0e0e0, 939px 322px #cccccc, 1236px 437px #dedede, 974px 313px #fafafa, -158px 28px #d4d4d4, 594px 2px #f2f2f2, -1444px -318px #fcfcfc, -799px 345px #c7c7c7, 1184px -244px #d6d6d6, -208px 401px whitesmoke, 653px -431px #f2f2f2, 0px -248px #f7f7f7, 1147px -146px #f2f2f2, 30px -61px #d1d1d1, 1052px -35px #fcfcfc, 857px -307px #e3e3e3, -407px -106px white, -69px -64px #d4d4d4, -324px 140px #ededed, -375px 295px #fafafa, 1099px 342px white, 1324px 231px #fcfcfc, -700px 133px #dbdbdb, -85px 156px #c4c4c4, -1273px 467px #dedede, -1324px 392px #f7f7f7, -9px 459px #dbdbdb, 472px -98px #e8e8e8, 1194px 427px #cccccc, -224px -289px #fcfcfc, 1083px 477px white, 1411px 229px #cfcfcf, -1417px -108px #dbdbdb, -999px -409px #c7c7c7, 1414px 297px #c7c7c7, -166px 109px #fafafa, 610px 121px #fafafa, 1085px -77px #cfcfcf, 689px 123px #e8e8e8, -87px 325px #e3e3e3, 1347px -345px #c9c9c9, -747px -266px #ebebeb, 1140px 89px #ededed, 1006px -87px #d6d6d6, 204px 444px #c2c2c2, -690px 476px #cccccc, -1138px -444px #dedede, 54px 342px #d4d4d4, 743px 327px whitesmoke, 335px -4px #d9d9d9, -1142px -190px #d1d1d1, 1362px 178px #c9c9c9, 673px -475px #d9d9d9, -877px 196px #c7c7c7, 223px 62px #e0e0e0, 1324px 191px #fcfcfc, 43px 110px #fafafa, -726px -328px #dbdbdb, 417px 39px #cccccc, 577px -184px #c9c9c9, -915px -138px #f2f2f2, -1060px -82px #d6d6d6, 1048px 133px whitesmoke, 1354px -405px #c7c7c7, 293px -86px #c4c4c4, -814px 440px #cccccc, 895px 133px #cccccc, 935px 409px #e8e8e8, 884px 369px #f2f2f2, 113px -411px #c9c9c9, 1295px 251px #e3e3e3, 1429px 301px #d9d9d9, -667px 449px #ebebeb, -1098px -409px #f2f2f2, -863px -321px #f7f7f7, 1437px -265px #ebebeb, 805px -378px #d6d6d6, -501px -453px #c9c9c9, 489px 97px #ededed, 1193px -145px #e0e0e0, -1475px 374px #f7f7f7, -1306px -82px #d9d9d9, 1423px 476px #e0e0e0, -1157px -158px whitesmoke, 1065px -181px #dbdbdb, 953px -54px #dbdbdb, 1028px -259px #c4c4c4, 160px -10px #cfcfcf, -1186px 105px #fafafa, 882px 285px #d4d4d4, -33px -333px #dbdbdb, -368px -91px #d6d6d6, -834px 288px #cfcfcf, 952px 434px #cfcfcf, 144px 70px #d4d4d4, -573px -348px #cccccc, 67px 457px whitesmoke, -944px -274px #c7c7c7, -265px -131px #d4d4d4, 548px -246px #f7f7f7, -352px -394px #c2c2c2, -788px 21px #e8e8e8, 60px -60px #fcfcfc, 1182px 100px white, -772px -351px #c7c7c7, 1286px 466px #d1d1d1, 35px 38px #cccccc, 1229px -348px #f7f7f7, -273px -374px #d6d6d6, 234px -41px #d4d4d4, 12px -159px #c2c2c2, 876px 402px #ebebeb, -456px 343px #fafafa, 882px -303px whitesmoke, 696px 468px #fcfcfc, -960px 344px #c9c9c9, 687px 56px #d4d4d4, 729px 231px #c9c9c9, 235px 327px #f2f2f2, -1126px 0px #e6e6e6, -676px 204px #f7f7f7, -256px -125px #ededed, -1392px -196px #dedede, 1252px 245px #d6d6d6, -1112px 206px #fcfcfc, -1211px -158px whitesmoke, 263px 159px #e0e0e0, 919px 176px #cccccc, 327px 449px #e3e3e3, -1186px 328px #c4c4c4, 1332px -256px #d6d6d6, 708px -387px #dedede, -675px -447px #f7f7f7, -1300px 361px #e3e3e3, 1324px -406px #cccccc, 1461px 88px #ebebeb, -1307px -193px #f2f2f2, 355px 116px #c7c7c7, 968px -29px #dedede, -273px 67px #c4c4c4, 1436px 393px #fafafa, -1446px 362px #e8e8e8, -714px 21px #ebebeb, -1035px 167px #f0f0f0, -425px -155px #dbdbdb, 292px -367px white, -307px -411px white, -146px 87px #e3e3e3, -942px -40px #fcfcfc, 1267px -351px #ededed, 234px 315px #cfcfcf, -992px 328px #f7f7f7, 871px -43px #cccccc, -962px -9px #f0f0f0, -564px 213px #d1d1d1, 1330px -354px white, 525px -300px #ededed, -410px 67px #f2f2f2, 1371px -235px #e8e8e8, -1297px -376px white, 508px 40px white, -971px -107px #c7c7c7, -318px 57px #fafafa, 1108px 306px #c7c7c7, -1364px -374px #d6d6d6, -575px -437px #c9c9c9, 549px -368px #d1d1d1, -43px -457px #c9c9c9, -775px 294px #d1d1d1, -1145px 202px #d9d9d9, -1062px 85px #ebebeb, 1075px -272px #e3e3e3, -1285px -120px #ededed, 418px 387px #cfcfcf, 471px 459px #c9c9c9, 1136px 464px #c2c2c2, -523px 213px #c9c9c9, 940px 93px #e3e3e3, -1090px -171px #e0e0e0, -337px -149px #e8e8e8, 100px -63px #e3e3e3, 271px -186px #e8e8e8, 135px 333px #d4d4d4, 1187px -33px #f2f2f2, 228px 229px #fcfcfc, -1133px -445px #d9d9d9, -467px 123px #f7f7f7, 199px -265px #cfcfcf, -1275px -404px #fafafa, 107px -348px #d1d1d1, -148px -426px #e8e8e8, 1393px -120px white, 800px -125px #e3e3e3, -283px 395px #d6d6d6, 566px 406px #c4c4c4, 203px 68px #c9c9c9, 956px 378px white, -1161px -267px #c9c9c9, -592px 97px #c9c9c9, 1149px -326px #f2f2f2, -1440px -17px #d6d6d6, -83px 418px #e8e8e8, 308px 380px #e8e8e8, 1356px 454px #e3e3e3, 414px 208px #d4d4d4, -833px -148px #f2f2f2, -346px -129px #f7f7f7, -1268px -290px #c4c4c4, -798px -166px #ededed, -770px -230px #c9c9c9, 785px 141px #c9c9c9, 1016px -122px #f7f7f7, 332px -278px #d1d1d1, 1407px 335px #f7f7f7, 1389px 342px #cccccc, -623px 125px #e6e6e6, -1147px 458px #e6e6e6, -717px -364px #f2f2f2, -870px -268px #d1d1d1, -1052px 10px white, 296px -181px #ebebeb, -1447px 93px #cccccc, -677px -125px #ebebeb, 1381px -238px #d1d1d1, 113px 430px #e0e0e0, 760px -413px #e6e6e6, 849px -457px #fcfcfc, 1273px -31px white, 706px -17px whitesmoke, 1002px 132px #cfcfcf, 1353px 249px #e6e6e6, -267px 133px #dbdbdb, -466px -261px #cfcfcf, -760px -203px #e8e8e8, 437px 327px #f0f0f0, -53px -474px #c9c9c9, -151px 278px #cfcfcf, 1333px -235px whitesmoke, 475px 393px #c9c9c9, -347px -149px #d1d1d1, 456px 201px #c2c2c2, 68px 274px #c9c9c9, 490px -47px #c7c7c7, 21px 37px #fcfcfc, -124px 92px #c4c4c4, -80px 316px #c7c7c7, -1206px 395px #d9d9d9, 973px -88px #e6e6e6, 976px -439px #cccccc, 183px -453px #ebebeb, -835px -141px #dbdbdb, 1179px -201px #d1d1d1, -684px 461px #c2c2c2, 778px -446px #cfcfcf, 90px 328px #c4c4c4, 414px -432px #e8e8e8, -958px 309px #cfcfcf, -164px 208px #ebebeb;
+  animation: fly 10s linear infinite;
+  transform-style: preserve-3d;
+}
+.stars:before, .stars:after {
+  content: "";
+  position: absolute;
+  width: inherit;
+  height: inherit;
+  box-shadow: inherit;
+}
+.stars:before {
+  transform: translateZ(-300px);
+  animation: fade1 10s linear infinite;
+}
+.stars:after {
+  transform: translateZ(-600px);
+  animation: fade2 10s linear infinite;
+}
+
+@keyframes fly {
+  from {
+    transform: translateZ(0px);
+  }
+  to {
+    transform: translateZ(300px);
+  }
+}
+@keyframes fade1 {
+  from {
+    opacity: .5;
+  }
+  to {
+    opacity: 1;
+  }
+}
+@keyframes fade2 {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: .5;
+  }
+}
